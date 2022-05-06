@@ -1,0 +1,16 @@
+/** 공통 css **/
+
+// opacity change animation
+@mixin opacity($init) {
+    opacity: $init;
+    transition: opacity 0.5s ease-in-out 0.3s;
+}
+
+// image
+@mixin image($width) {
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: $width;
+    height: auto;
+}

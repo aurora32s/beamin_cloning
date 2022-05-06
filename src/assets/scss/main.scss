@@ -1,0 +1,23 @@
+@import "./home.scss";
+@import "./section1.scss";
+@import "./section2.scss";
+@import "./section3.scss";
+@import "./section4.scss";
+@import "./section5.scss";
+@import "./section6.scss";
+
+@mixin page($y) {
+    width: 100%;
+    height: 100vh;
+    max-height: -webkit-fill-available;
+    transform: translateY(-100vh * $y);
+    transition: transform 0.9s ease 0s;
+}
+.bVUIrH { @include page(0) } // home
+.bxenLF { @include page(1) } // section 1
+.glDpUc { @include page(2) } // section 2
+.dHZPuP { @include page(3) } // section 3
+.djPkle { @include page(4) } // section 4
+.gGkVoG { @include page(5) } // section 5
+.kdcObw { @include page(6) } // section 6
+.zPFXK { @include page(7) }  // section 7

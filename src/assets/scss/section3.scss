@@ -1,0 +1,22 @@
+.WabuC.present {
+    bottom: 8%;
+    right: -27%;
+    width: 131%;
+}
+.gjPrFb {
+    margin-top: 25px;
+    width: 220px;
+    background-color: rgb(42, 193, 188);
+    display: inline-block;
+    cursor: pointer;
+    transform: translateX(-7px);
+    position: relative;
+    z-index: 3;
+}
+
+@media screen and (min-width: 1025px) {
+    .WabuC.present {
+        right: -18%;
+        width: 80%;
+    }
+}

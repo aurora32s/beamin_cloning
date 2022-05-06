@@ -1,0 +1,113 @@
+.kwkLrY {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(42, 193, 188);
+    overflow: hidden;
+}
+.kbMBZC {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(42, 193, 188);
+    background-image: url(https://www.baemin.com/_next/static/images/main_05@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: absolute;
+    inset: 0px;
+    animation: 1s linear 0s 1 normal forwards running zoom-in;
+}
+.bsaNVH {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 28% 6% 0px;
+}
+.hUSWao {
+    position: relative;
+    z-index:3;
+    width: 86%;
+}
+.cBvFeG {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.kbxqve {
+    display: none;
+    justify-content: space-between;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    margin-top: 40px;
+    font-family: 'DO_HYEON';
+}
+.iviaAe {
+    z-index: 10;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+    -webkit-box-pack: center;
+}
+.jCeLTg {
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.38;
+    margin-bottom: 14px;
+}
+.fphtEy {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+.cVIZoz {
+    background-image: url(https://www.baemin.com/_next/static/images/img-appstore-default@2x.png);
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 70px;
+    margin-right: 12px;
+    padding: 15px 30px;
+    border-radius: 100px;
+}
+.hDtnE {
+    background-image: url(https://www.baemin.com/_next/static/images/img-googleplay-default@2x.png);
+    background-size: 140px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 70px;
+    margin-right: 12px;
+    padding: 15px 30px;
+    border-radius: 100px;
+}
+.dBTKSI {
+    object-fit: contain;
+    display: flex;
+    width: 200px;
+}
+
+@media screen and (min-width: 1025px) {
+    .kwkLrY .item {
+        width: 1024px;
+        margin: 0px auto;
+        padding: 165px 50px 0px;
+    }
+    .hUSWao {
+        width: 50%;
+    }
+    .kbxqve {
+        display: flex;
+    }
+}

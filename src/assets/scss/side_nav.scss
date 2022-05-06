@@ -1,0 +1,27 @@
+.cOtBOK {
+    position: fixed;
+    top: 36%;
+    right: 5%;
+    display: block;
+    opacity: 0;
+    & ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+.cOtBOK button {
+    cursor: pointer;
+    display: block;
+    width: 24px;
+    height: 24px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.bmjNdF {
+    background: url(https://www.baemin.com/_next/static/images/dotScroll02@2x.png) 0% 0% / 100% 100% no-repeat;
+}
+.chqsmC {
+    background: url(https://www.baemin.com/_next/static/images/dotSelect@2x.png) 0% 0% / 100% 100% no-repeat;
+}

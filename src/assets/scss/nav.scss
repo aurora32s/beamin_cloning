@@ -1,0 +1,68 @@
+@import "./common.scss";
+
+.kjfQoc { // container
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    align-items: center;
+    justify-content: space-between;
+    padding: {
+        top: 40px;
+        left: 50px;
+    };
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    @include opacity(1);
+}
+.hZrHlU { // 좌측 이미지
+    @include image(28%);
+    max-width: 142px;
+}
+.fphtEy {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.fUuEUh { // sns container
+    display: none;
+    list-style: none;
+    min-height: 48px;
+    align-items: center;
+    & li {
+        width: 50px;
+        margin-right: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.iMZHIJ {
+    @include image(34px);
+}
+.jfgxeQ { // 앱 다운로드 버튼 container
+    display: none;
+}
+.kXmYNg { // 앱 다운로드 버튼
+    width: 140px;
+    height: 48px;
+    margin-right: 26px;
+    background-image: url(https://www.baemin.com/_next/static/images/btn-download-white@3x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 1025px) {
+    .kjfQoc {
+        width: 1024px;
+        padding: {
+            top: 60px;
+            right: 100px;
+        }
+    }
+    .fUuEUh {
+        display: flex;
+    }
+}

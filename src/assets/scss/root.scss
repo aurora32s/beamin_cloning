@@ -1,0 +1,91 @@
+@import "./nav.scss";
+@import "./main.scss";
+@import "./side_nav.scss";
+@import "./footer.scss";
+
+@font-face {
+    font-family: "DO_HYEON";
+    src: url("../fonts/BMDOHYEON_ttf.ttf");
+}
+@font-face {
+    font-family: "HANNA_11";
+    src: url("../fonts/BMHANNA_11yrs_ttf.ttf");
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+ul, p {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin-top: 5px;
+}
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.page-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(42, 193, 188);
+}
+.kONFoa {
+    transition: opacity 0.5s ease-in-out 0.3s;
+}
+.WabuC.scrollIcon {
+    position: fixed;
+    bottom: 3%;
+    left: 6%;
+    width: 68px;
+    height: 68px;
+    animation: 0.5s ease 0s 3 normal none running jump;
+}
+.fxyCm {
+    position: fixed;
+    display: flex;
+    width: 109px;
+    height: 142px;
+    right: 0;
+    top: 0;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out 0.3s;
+}
+.cBvFeG {
+    object-fit: contain;
+    display: flex;
+    width: 100%;
+    height: auto;
+    float: none;
+}
+.WabuC {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+@media screen and (min-width: 1025px) {
+    .WabuC.scrollIcon {
+        left: calc(50% - 34px);
+    }
+    .fxyCm {
+        width: 173px;
+        height: 226px;
+    }
+    .WabuC {
+        width: 84%;
+    }
+}

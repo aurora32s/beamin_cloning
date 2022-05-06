@@ -1,0 +1,12 @@
+.WabuC.people {
+    bottom: 10%;
+    right: -21%;
+    width: 126%;
+}
+
+@media screen and (min-width: 1025px) {
+    .WabuC.people {
+        right: -8%;
+        width: 75%;
+    }
+}
